@@ -129,10 +129,6 @@ container: {
 
 // ─── UTILITÁRIOS ──────────────────────────────────────────────────────────────
 
-/** Formata lovelaces para ADA com 6 casas decimais */
-function lovelaceToAda(lovelace: number): string {
-  return (lovelace / 1_000_000).toFixed(6);
-}
 
 /** Encurta endereço para exibição */
 function shortAddr(addr: string): string {

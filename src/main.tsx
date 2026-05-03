@@ -78,7 +78,7 @@ async function handleLoadWallet(words: string[]) {
 }
 
 /** Atualiza o saldo buscando UTxOs no Blockfrost */
-async function handleRefreshBalance(address: string) {
+async function handleRefreshBalance(_address: string) {
   if (!walletInstance) throw new Error("Wallet não carregada.");
   const assets  = await walletInstance.getBalance();
   const lovelace = Number(assets[0]?.quantity ?? 0);
