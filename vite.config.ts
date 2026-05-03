@@ -10,5 +10,5 @@ export default defineConfig({
   define: {
     global: 'globalThis',
   },
-  //base: '/carteira-local-cardano',
+  base: '/carteira-local-cardano',
 })
