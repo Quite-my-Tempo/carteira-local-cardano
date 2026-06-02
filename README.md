@@ -45,5 +45,5 @@ Como a infraestrutura base de chaves e conexão com a blockchain já está estab
    ```
 4. Inicie o projeto:
    ```bash
-     `npm run dev
+     npm run dev
    ```
