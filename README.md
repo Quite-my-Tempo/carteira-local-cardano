@@ -33,7 +33,7 @@ Como a infraestrutura base de chaves e conexão com a blockchain já está estab
 ### Passos
 1. Clone o repositório:
    ```bash
-     git clone [<url-do-seu-repositorio>](https://github.com/Quite-my-Tempo/carteira-local-cardano.git)
+     git clone https://github.com/Quite-my-Tempo/carteira-local-cardano.git
    ```
 2. Instale as dependências:
    ```bash
